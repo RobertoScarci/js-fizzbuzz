@@ -12,7 +12,7 @@ for( let i = 1; i <= 100; i++){
         cardElement.innerHTML = 'Fizz'
     } if( i % 5 == 0){
         cardElement.innerHTML = 'Buzz'
-    } else if( i % 3 == 0 & i % 5 == 0){
-        cardElement.innerHTML = 'fizzbuzz'
+    }if( i % 3 == 0 && i % 5 == 0){
+        cardElement.innerHTML = 'FizzBuzz'
     }
 }
